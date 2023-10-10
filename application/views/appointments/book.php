@@ -397,9 +397,7 @@
             <div id="frame-footer">
                 <small>
                     <span class="footer-powered-by">
-                        Powered By
-
-                        <a href="https://easyappointments.org" target="_blank">Easy!Appointments</a>
+                        <img src="<?= asset_url('assets/img/bestcode_min.png') ?>" width="60px" />
                     </span>
 
                     <span class="footer-options">
@@ -407,11 +405,6 @@
                             <i class="fas fa-language mr-2"></i>
                             <?= ucfirst(config('language')) ?>
                         </span>
-
-                        <a class="backend-link badge badge-primary" href="<?= site_url('backend'); ?>">
-                            <i class="fas fa-sign-in-alt mr-2"></i>
-                            <?= $this->session->user_id ? lang('backend_section') : lang('login') ?>
-                        </a>
                     </span>
                 </small>
             </div>
