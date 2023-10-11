@@ -40,9 +40,9 @@
 <body>
 <nav id="header" class="navbar navbar-expand-md navbar-dark">
     <div id="header-logo" class="navbar-brand">
-        <img src="<?= base_url('assets/img/logo.png') ?>">
-        <h6>EASY!APPOINTMENTS</h6>
-        <small>Open Source Appointment Scheduler</small>
+        <img src="<?= asset_url('assets/img/logodr.png') ?>" width="50px" />
+        <h6>Dr. Santigo</h6>
+        <small>Traumatología y Ortopedia</small>
     </div>
 
     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#header-menu">

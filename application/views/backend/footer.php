@@ -1,9 +1,6 @@
 <div id="footer">
     <div id="footer-content" class="col-12 col-sm-8">
-        <img class="mr-1" src="<?= base_url('assets/img/logo-16x16.png') ?>" alt="Easy!Appointments Logo">
-        <a href="https://easyappointments.org">
-            Easy!Appointments
-        </a>
+        <img src="<?= asset_url('assets/img/bestcode_min.png') ?>" width="20px" />
 
         v<?= config('version') ?>
         <?php if (config('release_label')): ?>
@@ -12,10 +9,7 @@
 
         |
 
-        <img class="mx-1" src="<?= base_url('assets/img/alextselegidis-logo-16x16.png') ?>" alt="Alex Tselegidis Logo">
-        <a href="https://alextselegidis.com">
-            Alex Tselegidis
-        </a>
+        BestCode
         &copy; <?= date('Y') ?> - Software Development
 
         |

@@ -73,10 +73,7 @@
             </span>
 
         <div class="mt-4">
-            <small>
-                Powered by
-                <a href="https://easyappointments.org">Easy!Appointments</a>
-            </small>
+            <img src="<?= asset_url('assets/img/bestcode_min.png') ?>" width="70px" />
         </div>
     </form>
 </div>
